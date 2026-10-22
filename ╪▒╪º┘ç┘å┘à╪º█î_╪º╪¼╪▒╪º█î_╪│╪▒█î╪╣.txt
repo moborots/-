@@ -1,0 +1,16 @@
+﻿راهنمای اجرای سامانه مدیریت تعمیرات
+
+روش اول — Visual Studio:
+1) ZIP را کامل Extract کنید.
+2) فایل MaintenanceManagement.sln را باز کنید.
+3) اگر Visual Studio خواست، workload «.NET desktop development» را نصب کنید.
+4) از منوی Build گزینه Build Solution را بزنید.
+5) کلید F5 را بزنید.
+6) ورود اولیه: admin / Admin@123
+
+روش دوم — فایل BAT:
+1) .NET 8 SDK را در ویندوز نصب کنید.
+2) اتصال اینترنت داشته باشید تا Microsoft.Data.Sqlite از NuGet دریافت شود.
+3) روی «اجرای_برنامه.bat» دوبار کلیک کنید.
+
+نکته: این پروژه سورس است و فایل EXE مستقل از پیش‌ساخته در ZIP نیست؛ باید روی ویندوز با .NET 8 ساخته شود.
